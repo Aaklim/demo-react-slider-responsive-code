@@ -11,7 +11,7 @@
 		"watch": "webpack --watch",
 		"server": "webpack serve --host 0.0.0.0",
 		"predeploy":"yarn run build",
-		"deploy":"gh-pages -d build"
+		"deploy":"gh-pages -d dist"
 
 	},
 	"keywords": [

@@ -10,8 +10,7 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.[contenthash].js',
-    publicPath: '/',
+    filename: 'bundle.js',
   },
   module: {
     rules: [
@@ -56,17 +55,10 @@ module.exports = {
       ],
     }),
   ],
-  optimization: {
-    minimizer: [
-      new UglifyJsPlugin({
-        sourceMap: true,
-      }),
-    ],
-  },
+
   devServer: {
     port: 9000,
     inline: true,
     contentBase: './src/assets',
-    publicPath: '/',
   },
 }
