@@ -1,0 +1,29 @@
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  background-color:#ebe3e3;
+  text-align: center;
+  border:1px solid black
+}
+.main *{
+    margin:0;
+    padding:0;
+}
+.title{
+    padding:10px;
+    font-size: 1.5rem;
+
+}
+.content {
+  padding: 5px;
+}
+.content::after{
+  content:'';
+  clear:both;
+  display:block
+}
+.img {
+  width: 50%;
+  float: right;
+  margin: 5px;
+}
