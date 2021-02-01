@@ -1,5 +1,5 @@
 import React from 'react'
-import Carousel from './Carousel'
+import Carousel from 'react-slider-responsive'
 import classes from './App.module.css'
 import Card from './Card/Card'
 

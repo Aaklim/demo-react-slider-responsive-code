@@ -1,18 +1,17 @@
 {
 	"name": "demo-react-slider-responsive",
 	"version": "1.0.0",
-	"private":true,
+	"private": true,
 	"description": "Demo Carousel React component",
 	"main": "index.js",
-	"homepage":"https://aaklim.github.io/demo-react-slider-responsive",
+	"homepage": "https://aaklim.github.io/demo-react-slider-responsive",
 	"scripts": {
 		"dev": "webpack --mode development",
 		"build": "webpack --mode production",
 		"watch": "webpack --watch",
 		"server": "webpack serve --host 0.0.0.0",
-		"predeploy":"yarn run build",
-		"deploy":"gh-pages -d dist"
-
+		"predeploy": "yarn run build",
+		"deploy": "gh-pages -d dist"
 	},
 	"keywords": [
 		"react",
@@ -63,6 +62,6 @@
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
 		"react-router-dom": "^5.2.0",
-		"react-slider-responsive": "^1.0.0"
+		"react-slider-responsive": "^1.0.1"
 	}
 }

@@ -11,6 +11,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -60,5 +61,6 @@ module.exports = {
     port: 9000,
     inline: true,
     contentBase: './src/assets',
+    publicPath: '/',
   },
 }
